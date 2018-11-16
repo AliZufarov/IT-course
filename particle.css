@@ -1,0 +1,88 @@
+
+  .background {
+  background-color: #1d1e37;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+}
+.container{
+  position: absolute;
+  margin-top: 20px;
+}
+a.navbar-brand {
+  color: #f92472;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 50px;
+  text-shadow: 2px 3px 4px powderblue;
+}
+a.navbar-brand:hover {
+  color: #f92472;
+}
+a.nav-link {
+  font-size: 25px;
+  font-weight: bold;
+  text-indent: 30px;
+  color: violet;
+  margin-left: 20px;
+}
+a.nav-link:hover {
+  color: powderblue;
+}
+button.btn-danger {
+  text-align: center;
+  font-size: 18px;
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  margin-left: 40px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+    
+}
+button.btn-danger:hover{
+  box-shadow: 0 0 3px 10px violet;
+  color: powderblue;
+  background-color: black;
+}
+p {
+  color:red;}
+h1.text-center {
+  color: white;
+  font-weight: bold;
+  margin-top: 220px;
+  font-size: 60px;
+ }
+h2.text-center {
+margin-top: 70px;
+color: white;
+}
+button.btn-success {
+  text-align: center;
+  font-size: 20px;
+  background-color: green;
+  font-weight: bold;
+  border-radius: 10px;
+   margin: 5px; 
+  width: 120px;
+  height: 50px;
+  border: none;
+    
+}
+button.btn-success:hover{
+  box-shadow: 0 0 3px 10px violet;
+  color: powderblue;
+  background-color: black;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>particle website</title>
+    <link rel="stylesheet" type="text/css" href="particle.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" href="js/bootstrap.min.js"></script>
+   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+  <script src="{{ asset('public/js/particles.js')}}"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand bg-blue">
+  <a class="navbar-brand" href="#">ARENA IT Center</a>
+   <ul class="navbar-nav">
+    <li class="navbar-item">
+      <a class="nav-link" href="#">Home</a>
+    </li> 
+    <li class="navbar-item">
+      <a class="nav-link" href="#">Course</a>
+    </li> 
+    <li class="navbar-item">
+      <a class="nav-link" href="#">About Us</a>
+    </li> 
+    <li class="navbar-item">
+      <a class="nav-link" href="#">News</a>
+    </li> 
+    <li class="navbar-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+    <button class="btn btn-danger" type="button">Registr</button>      
+  </ul>
+</nav>
+
+    <h1 class="text-center">Welcome to ARENA IT CenteR</h1>
+    <h2 class="text-center">From zero to Advanced level in 9 months</h2>
+    <br>
+  
+    <div class="col-12 text-center">
+   <button class="btn btn-success" type="button">Sing In</button
+    >
+    <button class="btn btn-success" type="button">Sing Up</button
+    >
+  </div>
+</div>
+</div>
+  
+
+     
+
+
+
+
+
+<canvas class="background"></canvas>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>
+    var particles = Particles.init({
+      selector: '.background',
+      color: ['#DA0463', '#404B69', '#DBEDF3', '#33ff33', '#0000ff', '#ffff00', '#f7931a', '#ac76b2'],
+      sizeVaritions: 3,
+      maxParticles: 180,
+      connectParticles: true,
+      responsive: [{
+        breakpoint: 300,
+        options: {
+          color: '#ff0000',
+          maxParticles: 380,
+          connectParticles: false
+        }
+      }]
+    });
+</script>
+
+
+
+</body>
+</html>
